@@ -10,7 +10,7 @@ At Let’s Code It, we deliver solutions with a future-focused, pixel-perfect mi
 
 ## Design Guide:
 
-Figma file: https://www.figma.com/file/V6fQQszd5eXZGAQFNGKtH4/LCI-Multiselect-Takehome?node-id=0%3A1
+[Figma file](https://www.figma.com/file/V6fQQszd5eXZGAQFNGKtH4/LCI-Multiselect-Takehome?node-id=0%3A1)
 
 ![image](https://user-images.githubusercontent.com/13429481/135794441-4c7d0eb5-b61a-47b6-924e-ca694618dc0f.png)
 
