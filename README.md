@@ -1,3 +1,5 @@
+![Logo_Horiz_Outlines_K](https://user-images.githubusercontent.com/13429481/135781260-98960a5f-6569-4174-8394-aabdf717923a.png)
+
 # LCI Takehome Assessment
 
 This is an exercise that will give you a glimpse of the typical day-to-day challenges that we tackle at LCI!
