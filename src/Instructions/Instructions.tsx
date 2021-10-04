@@ -1,3 +1,4 @@
+import CloseIcon from '../assets/close.svg'
 import styled from 'styled-components'
 
 const Instructions: FC = () => {

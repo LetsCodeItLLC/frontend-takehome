@@ -16,17 +16,15 @@ At Let’s Code It, we deliver solutions with a future-focused, pixel-perfect mi
 
 
 ## Acceptance Criteria
-- For the multiselect dropdown's initial state:
-  - the multiselect should have a placeholder text "Select..."
-- When a user types a non-empty string in the input box, the component should query the list of matching results from the `getColors` API.
-  - For sanitizing the search string, a text-to-lowercase transformation should suffice.
-  - The UI should be performant, and not incur too many promise calls. In other words, we do not want to fetch the list of matching results for every time the input box changes gets updated. Think of a way to limit the number of times `getColor` is called on search input's change listener.
-  - The multiselect should fetch and display the results from the `getColor` API.
-  - We should also have an appropriate empty state for a 0 result set from the `getColor` API.
 
-TODO:
-- The list of options should filter out the list of that are already selected
-- Clicking on the selected token should remove the option from the selection list.  
+- The multiselect in its initial, empty state should display a placeholder text of "Select..."
+- When the user types a non-empty string in the input box, the component should query the list of matching results from the `useGetColor` hook
+  - For sanitizing the search string, a text-to-lowercase transformation should suffice.
+  - The UI should be performant, and not incur too many promise calls. In other words, think of a way to limit the number of times `useGetColor` is called on search input's change listener.
+- The user should only be able to select an option once. Filter the data from `useGetColor` with the set of selected options.
+- The results list should display an empty state for zero results returned from `useGetColor`.
+- Clicking on the selected token should remove the option from the selected list.
+- The user can only select up to three (3) options. Disable the text input once there are three selected options. 
 
 # Development
 Clone a copy of this repository, and run the following commands in your CLI to start development
