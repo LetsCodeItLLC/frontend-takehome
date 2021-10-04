@@ -8,16 +8,18 @@ You will be recreating a multiselect dropdown component, packed with several fea
 
 At Let’s Code It, we deliver solutions with a future-focused, pixel-perfect mindset. So pay extra attention to the user experiences, and the design details provided below.
 
-### Interactions:
-Contact <EMAIL> for access to the following links:
-Figma file:
-Interactions:
+## Design Guide:
+
+Figma file: https://www.figma.com/file/V6fQQszd5eXZGAQFNGKtH4/LCI-Multiselect-Takehome?node-id=0%3A1
+
+![image](https://user-images.githubusercontent.com/13429481/135794441-4c7d0eb5-b61a-47b6-924e-ca694618dc0f.png)
+
 
 ## Acceptance Criteria
 - For the multiselect dropdown's initial state:
   - the multiselect should have a placeholder text "Select..."
-- When a user types a non-empty string in the input box, the component should query the list of matching results from the `getColors` API. Keep in mind of the following:
-  - No need to sanitize for spaces, case-sensitive search strings here: let's assume that the input value should be an exact match with what we're trying to select.
+- When a user types a non-empty string in the input box, the component should query the list of matching results from the `getColors` API.
+  - For sanitizing the search string, a text-to-lowercase transformation should suffice.
   - The UI should be performant, and not incur too many promise calls. In other words, we do not want to fetch the list of matching results for every time the input box changes gets updated. Think of a way to limit the number of times `getColor` is called on search input's change listener.
   - The multiselect should fetch and display the results from the `getColor` API.
   - We should also have an appropriate empty state for a 0 result set from the `getColor` API.
