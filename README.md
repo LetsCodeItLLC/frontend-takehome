@@ -20,15 +20,8 @@ Clone a copy of this repository, and run the following commands in your CLI to s
 ```zsh
 $ yarn
 $ yarn dev 
-
-# Vite will open a local dev-sever 
-vite v2.6.2 dev server running at:
-
-> Local: http://localhost:3000/
-> Network: use `--host` to expose
-
-ready in 561ms.
 ```
+Open `localhost:3000`, and start developing!
 
 # Submission
 **NOTE: Please do not push submissions directly into this repository.**
