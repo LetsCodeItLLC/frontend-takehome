@@ -34,11 +34,6 @@ $ yarn dev
 ```
 Open `localhost:3000`, and start developing!
 
-# Submission
-**NOTE: Please do not push submissions directly into this repository.**
-
-Submit the compressed file at: <WRITE_UP> to <EMAIL_HERE>
-
 # Questions?
 
-Email our team at: takehome@letscodeit.com for any questions related to the take home. Good luck! 
+Email our team at: jon@letscodeit.io for any questions related to the take home. Good luck! 
