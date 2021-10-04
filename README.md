@@ -17,7 +17,7 @@ We'd like to build a multi-select dropdown that
 
 # Development
 Clone a copy of this repository, and run the following commands in your CLI to start development
-```console
+```zsh
 $ yarn
 $ yarn dev 
 
